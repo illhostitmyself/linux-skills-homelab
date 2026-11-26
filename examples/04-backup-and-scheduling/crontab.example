@@ -1,0 +1,3 @@
+# Edit your crontab with: crontab -e
+# minute hour day-of-month month day-of-week  command
+0 4 * * * /usr/local/bin/backup-config.sh

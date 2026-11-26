@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up the myapp config folder
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/backup-config.sh

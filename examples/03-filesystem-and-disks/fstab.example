@@ -1,0 +1,5 @@
+# Example only. Do not copy this over your real /etc/fstab.
+# Add ONE line like the last one to your own file, with your own UUID.
+#
+# <file system>                              <mount point>  <type>  <options>        <dump> <pass>
+UUID=YOUR_UUID_HERE                          /mnt/storage   ext4    defaults,nofail  0      2
